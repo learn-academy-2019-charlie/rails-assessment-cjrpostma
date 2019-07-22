@@ -83,7 +83,7 @@ This subsystem is implemented in ActionController, which is a data broker sittin
 
 ### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
 
-get '/game' => 'main@game'
+get '/game/:guess' => 'main@game'
 
 
 ### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
